@@ -7,8 +7,7 @@ set nocompatible
 " VISUALIZACIÓN 
 set ruler 
 set number "muestra número de las líneas 
-"set relativenumber "muestra la distancia en líneas respecto de la 
-actual para las anteriores y las posteriores 
+"set relativenumber "muestra la distancia en líneas respecto de la actual para las anteriores y las posteriores 
 set showmode "activa indicación de modos 
 set showcmd "activa indicación de comandos 
 set colorcolumn=80 "muestra lína vertical para límite de carácteres 
@@ -90,9 +89,7 @@ set ignorecase smartcase "sólo busca mayúsculas si lo indica la búsqueda
 "mayus-g -> ir al final del documento 
 "mayus-/ -> buscar palabra hacia abajo 
 "mayus-? -> buscar palabra hacia arriba 
-":s/antiguo/nuevo -> cambiar primera ocurrencia de 'antiguo' por 'nuevo' 
-en la 
-"línea 
+":s/antiguo/nuevo -> cambiar primera ocurrencia de 'antiguo' por 'nuevo' en la línea 
 "%s/antiguo/nuevo -> cambiar primera ocurrencia de 'antiguo' por 'nuevo' en 
 "todo el documento 
 "Ctr-W-s / :sp -> dividir ventana horizontalmente 
