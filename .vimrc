@@ -90,8 +90,7 @@ set ignorecase smartcase "sólo busca mayúsculas si lo indica la búsqueda
 "mayus-/ -> buscar palabra hacia abajo 
 "mayus-? -> buscar palabra hacia arriba 
 ":s/antiguo/nuevo -> cambiar primera ocurrencia de 'antiguo' por 'nuevo' en la línea 
-"%s/antiguo/nuevo -> cambiar primera ocurrencia de 'antiguo' por 'nuevo' en 
-"todo el documento 
+"%s/antiguo/nuevo -> cambiar primera ocurrencia de 'antiguo' por 'nuevo' en todo el documento 
 "Ctr-W-s / :sp -> dividir ventana horizontalmente 
 "Ctrl-W v / :vs -> dividir ventanan verticalmente 
 "Ctrl-W w -> alternar entre ventanas abiertas 
