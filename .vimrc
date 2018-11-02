@@ -1,3 +1,25 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" (*) Aqui agregamos las líneas <Plugin> para incorporar nuevos plugins a Vim
+  Plugin 'VundleVim/Vundle.vim'
+  Plugin 'ruby.vim'
+  Plugin 'Ruby-Snippets'
+  Plugin 'rails.vim'
+  Plugin 'Vim-Rspec'
+  Plugin 'git-diff'
+  Plugin 'surround.vim'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'mattn/emmet-vim'
+  Plugin 'airblade/vim-gitgutter'
+  Plugin 'ctrlp.vim' " ver directorio: Ctrl+p [directorio_deseado]
+
+call vundle#end() " required
+filetype plugin indent on " required
+
 " FUNCIONAMIENTO GENERAL 
 set noerrorbells  "evita los pitidos en caso de error 
 set novisualbell "evita advertencias visuales de error 
