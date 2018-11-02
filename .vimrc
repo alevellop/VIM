@@ -15,10 +15,15 @@ call vundle#begin()
   Plugin 'scrooloose/nerdtree'
   Plugin 'mattn/emmet-vim'
   Plugin 'airblade/vim-gitgutter'
+  Plugin 'Xuyuanp/nerdtree-git-plugin' 
   Plugin 'ctrlp.vim' " ver directorio: Ctrl+p [directorio_deseado]
 
 call vundle#end() " required
 filetype plugin indent on " required
+
+"SHORTCUTS
+nnoremap <F2> :NERDTreeToggle<CR>
+nnoremap <F3> :NERDTreeFind<CR> 
 
 " FUNCIONAMIENTO GENERAL 
 set noerrorbells  "evita los pitidos en caso de error 
